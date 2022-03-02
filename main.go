@@ -38,10 +38,6 @@ func main() {
 	list_anwsers := make([]string, 0)
 	word_anwsers := make([]string, 0)
 
-	// for i := 0; i <= len(keyword_list[generateRandomIndex(keyword_list)])-1; i++ {
-	// 	word_anwsers = append(word_anwsers, "-")
-	// 	list_anwsers = append(list_anwsers, "-")
-	// }
 	for i := 0; i <= len(guess)-1; i++ {
 		word_anwsers = append(word_anwsers, "-")
 		list_anwsers = append(list_anwsers, "-")
