@@ -24,8 +24,8 @@ func checkExistAnwser(ans string, list []string) bool {
 }
 
 func getKeyword() string {
-	keyword_list := []string{"python", "golang", "java", "ruby", "nodejs"}
-	keyword := keyword_list[generateRandomIndex(keyword_list)]
+	list_keyword := []string{"python", "golang", "java", "ruby", "nodejs"}
+	keyword := list_keyword[generateRandomIndex(list_keyword)]
 	return keyword
 }
 
@@ -51,7 +51,7 @@ func main() {
 
 		fmt.Println("=====================")
 
-		if anwser == "quit" {
+		if anwser == constant.Quit {
 			fmt.Println(constant.Thanks)
 			break
 		}

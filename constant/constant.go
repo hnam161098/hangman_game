@@ -7,4 +7,5 @@ const (
 	Exist  = "câu trả lời đã tồn tại, hãy chọn từ khác"
 	Thanks = "cảm ơn bạn đã chơi"
 	Err    = "câu trả lời không hợp lệ, chỉ có 1 chữ, hãy trả lời lại"
+	Quit   = "q"
 )
